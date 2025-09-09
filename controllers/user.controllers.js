@@ -94,6 +94,7 @@ export const askToAssistant = async (req, res) => {
           response: gemResult.response || "Here’s what I found.",
         });
       case "calculator_open":
+      case "youtube_search":
       case "instagram_open":
       case "facebook_open":
       case "weather_show":

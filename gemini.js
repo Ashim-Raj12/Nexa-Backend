@@ -8,7 +8,7 @@ const geminiResponse = async (command, assistantName, userName) => {
     Your task is to understand the user's natural language input and respond with a json oject like this :
     
     {
-    "type": "general" | "google_search" | "youtube_search" | "youtube_play" | "get_time" | "get_date" | "get_day" | "get_month" | "calculator_open" | "instagram_open" | "facebook_open" | "weather_show" | "whatsapp_open" | "telegram_open" | "twitter_open" | "gmail_open" | "maps_open" | "notes_open" | "reminder_set" | "alarm_set" | "timer_set" | "news_show" | "sports_score" | "joke_tell" | "quote_tell" | "music_play" | "call_contact" | "message_send" | "wifi_toggle" | "bluetooth_toggle" | "flashlight_toggle" | "volume_change" | "settings_open",
+    "type": "general" | "google_search" | "youtube_search" | "youtube_play" | "get_time" | "get_date" | "get_day" | "get_month" | "calculator_open" | "instagram_open" | "facebook_open" | "weather_show" | "whatsapp_open" | "telegram_open" | "twitter_open" | "gmail_open" | "maps_open" | "notes_open" | "reminder_set" | "alarm_set" | "timer_set" | "news_show" | "sports_score" | "joke_tell" | "quote_tell" | "music_play" | "call_contact" | "message_send" | "wifi_toggle" | "bluetooth_toggle" | "flashlight_toggle" | "volume_change" | "settings_open" | "youtube_search",
 
     "userInput": "<original user input, but remove your name if mentioned. If the user asks to search on Google or YouTube, keep ONLY the search query here. >",
 
