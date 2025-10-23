@@ -3,6 +3,10 @@
 ## Overview
 This backend is built using Express.js with ES module syntax. It provides user authentication functionality with MongoDB as the database. The backend uses JWT tokens for session management and bcrypt for password hashing.
 
+## 🚀 Live Demo  
+[![Live Demo](https://img.shields.io/badge/LIVE%20DEMO-Click%20Here-brightgreen?style=for-the-badge)](https://nexa-ai-o158.onrender.com/)
+
+
 ## Project Structure
 - **index.js**: Main entry point that sets up the Express server, middleware, routes, and connects to MongoDB.
 - **config/db.js**: Contains the MongoDB connection logic using Mongoose.
